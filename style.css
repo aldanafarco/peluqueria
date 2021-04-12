@@ -1,0 +1,98 @@
+*{margin: 0;padding:0}
+body {
+    background-color: antiquewhite;
+    position: relative;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #252935;   
+    margin-bottom: 20px;
+    
+}
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.logo {
+    color: white;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+nav {
+    float: right;
+    line-height: 200px;
+
+}
+nav a {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+nav a:hover {
+    background:pink ;
+    border-radius: 50px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .acordeon input {
+    display: none;
+  }
+  
+  .acordeon__titulo {
+    display: flex;
+    padding: 15px;
+    background: #252935;
+    color: rgb(243, 236, 236);
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    
+  }
+  .acordeon__titulo:hover {
+    background: pink;
+  }
+  
+  .acordeon__contenido {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+  }
+  
+  .acordeon input:checked ~ .acordeon__contenido{
+    height: auto;
+    margin: 15px 0;
+  }
+  .card {
+      background-color: #252935;
+      color: white;
+  }
+
+  .banner {
+      background-color: #252935;
+      color:white;
+  }
+  .texto {
+      font-size: 23px;
+  }
+  .carousel{
+      text-align: center;
+  }
+
+
+
+
